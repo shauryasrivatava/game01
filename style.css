@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
 }
-#game{
+#Game{
     width: 500px;
     height: 200px;
     border: 1px solid black;
+    /* margin: auto; */
 }
 #character{
     width: 20px;
@@ -18,10 +19,10 @@
     animation: jump 500ms;
 }
 @keyframes jump{
-    0%(top: 150px;)
-    30%(top:100px;)
-    70%(top:100px;)
-    100%(top:150px;)
+    0%{top: 150px;}
+    30%{top:100px;}
+    70%{top:100px;}
+    100%{top:150px;}
 
 }
 #block{
@@ -31,10 +32,10 @@
     position: relative;
     top:130px;
     left: 480px;
-    animation: block is infinite linear;
+    animation: block 2s infinite linear;
 }
 @keyframes block{
   
-0%(left: 4opx;)
-100%(left: -40px;)
+0%{left: 480px;}
+100%{left: -40px;}
 }
